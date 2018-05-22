@@ -11,5 +11,6 @@
     <!-- Bulma Version 0.7.1-->
     <link rel="stylesheet" href="./css/bulma.css" />
     <!--<link rel="stylesheet" type="text/css" href="../css/login.css">-->
+
 </head>
     <body style="background: #ecf0f5;">

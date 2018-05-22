@@ -7,7 +7,7 @@
     Geral
   </p>
   <ul class="menu-list">
-    <li><a><i class="fa fa-tachometer" style="font-size:15px; width:20px; letter-spacing: 2px;"></i> Dashboard <i class="fa fa-angle-right" style="float:right; margin-right:8px;"></i></a></li>
+    <li><a href="{{url('/dashboard')}}"><i class="fa fa-tachometer" style="font-size:15px; width:20px; letter-spacing: 2px;"></i> Dashboard <i class="fa fa-angle-right" style="float:right; margin-right:8px;"></i></a></li>
     <li><a><i class="fa fa-inbox" style="font-size:15px; width:20px; letter-spacing: 2px;"></i> Financeiro <i class="fa fa-angle-right" style="float:right; margin-right:8px;"></i></a></li>
     <li><a><i class="fa fa-question-circle" style="font-size:15px; width:20px; letter-spacing: 2px;"></i> Suporte <i class="fa fa-angle-right" style="float:right; margin-right:8px;"></i></a></li>
   </ul>
