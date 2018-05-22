@@ -12,7 +12,7 @@
     </figure>
 	<b>Douglas Silveira</b><br />
 	<span style="font-size:11px;"><a mailto="douglas.silveira@processmind.com.br" style="color:#000;">douglas.silveira@processmind.com.br</a></span><br />
-	<span style="font-size:13px; margin-right:30px;"><a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-user-circle"></i> Meu perfil</a></span><span style="font-size:13px;"><a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-sign-in"></i> Sair</a></span>
+	<span style="font-size:13px; margin-right:30px;"><a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-user"></i> Meu perfil</a></span><span style="font-size:13px;"><a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-sign-in"></i> Sair</a></span>
 	<hr />
 	@include('includes.nav')   
 
