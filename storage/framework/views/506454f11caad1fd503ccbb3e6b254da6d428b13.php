@@ -8,7 +8,7 @@
                         <div class="box">
                             <figure class="avatar">
                                 <div style="border-radius: 50%; width:128px; height:128px; background:#CCC; margin:0 auto;">
-                                    <img src="./img/login.png" width="128" height="128" style="border-radius: 50%;"/>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0d-gG63jqXDLy-HBFbuDUHQfJoMXskG8_zKSqY9PuscFYqdw3Q" width="128" height="128" style="border-radius: 50%;"/>
                                 </div>
                             </figure>
                             <br />

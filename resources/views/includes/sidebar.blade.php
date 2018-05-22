@@ -11,6 +11,7 @@
         </div>
     </figure>
 	<b>Douglas Silveira</b><br />
-	<span style="font-size:11px;">douglas.silveira@processmind.com.br</span>
+	<span style="font-size:11px;"><a mailto="douglas.silveira@processmind.com.br" style="color:#000;">douglas.silveira@processmind.com.br</a></span><br />
+	<span style="font-size:11px;"><a href="{{url('/')}}"><i class="fa fa-home"></i> Sair</a></span>
 
 </div>
