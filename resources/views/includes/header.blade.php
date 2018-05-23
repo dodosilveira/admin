@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="route-documentation fontawesome-i2svg-active fontawesome-i2svg-complete">
+<html class="route-documentation fontawesome-i2svg-active fontawesome-i2svg-complete" style="background: #ecf0f5;">
 
 <head>
     <meta charset="utf-8">
