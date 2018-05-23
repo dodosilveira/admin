@@ -1,5 +1,10 @@
 @include('includes.header')       
 
+<style>
+	.navtop{color:#038672!important;}
+	.navtop:hover{color:#038672!important;}
+</style>
+
 <div class="columns" style="font-weight:100;">
   
     @include('includes.sidebar')
@@ -12,15 +17,17 @@
 			        <div class="tile is-parent is-vertical" style="height:80px; float:right; line-height: 20px;">
 			      		<div style="height:20px; margin-top:15px; margin-right:30px; float:right;">
 			        		
-			      			<div style="float:right; width:80px; height:20px; text-align: center; margin:0px 10px;">
-			        			<a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-sign-in" style="margin-right:5px; font-size:28px;"></i><br />Logout</a>
+			      			<div style="float:right; width:90px; height:20px; text-align: center; margin-left:10px;">
+			        			<a class="navtop" href="{{url('/')}}"><i class="fa fa-sign-in" style="margin-right:5px; font-size:28px;"></i><br />Logout</a>
 			        		</div>
 
-			        		<div style="float:right; width:80px; height:20px; text-align: center; margin:0px 10px;">
-			        			<a style="color:#038672;" href="{{url('/')}}"><i class="fa fa-user" style="margin-right:5px; font-size:28px;"></i><br />Meu perfil</a>
+			        		<div style="float:right; width:120px; height:20px; text-align: center; margin:0px 10px;">
+			        			<a class="navtop" href="{{url('/')}}"><i class="fa fa-bell" style="margin-right:5px; font-size:28px;"></i><br />Notificações (0)</a>
 			        		</div>
 
-			        		
+			        		<div style="float:right; width:90px; height:20px; text-align: center; margin:0px 25px;">
+			        			<a class="navtop" href="{{url('/')}}"><i class="fa fa-user" style="margin-right:5px; font-size:28px;"></i><br />Meu perfil</a>
+			        		</div>
 
 			      		</div>
 			        </div>
