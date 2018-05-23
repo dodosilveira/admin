@@ -13,4 +13,4 @@
     <!--<link rel="stylesheet" type="text/css" href="../css/login.css">-->
 
 </head>
-    <body style="background: #ecf0f5;">
+    <body class="is-fullheight" style="background: #ecf0f5; height:auto;">

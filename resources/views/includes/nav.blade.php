@@ -2,7 +2,7 @@
   .menu-label{font-size:13px;}
   .menu-list{font-size:14px;}
 </style>
-<aside class="menu" style="text-align: left; margin-left:7px; width:97%; height:600px; overflow:auto;">
+<aside class="menu" style="text-align: left; margin-left:7px; width:97%; height:auto; overflow:auto;">
   <p class="menu-label">
     Geral
   </p>
