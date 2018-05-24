@@ -17,7 +17,7 @@
                     </div>
 
                     <div style="float:right; width:90px; height:20px; text-align: center; margin:0px 25px;">
-                        <a class="navtop" href="{{url('/profile')}}"><i class="fa fa-user" style="margin-right:5px; font-size:28px;"></i><br />Meu perfil</a>
+                        <a class="navtop" href="{{url('profile')}}"><i class="fa fa-user" style="margin-right:5px; font-size:28px;"></i><br />Meu perfil</a>
                     </div>
 
                 </div>

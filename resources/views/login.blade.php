@@ -18,7 +18,9 @@
                                     <input class="input is-medium" type="password" placeholder="senha">
                                 </div>
                             </div>
-                            <a href="{{url('/dashboard')}}" class="button is-block is-info is-medium is-fullwidth">Login</a>
+                            <a href="{{url('/dashboard')}}" class="button is-block is-info is-medium">Login</a>
+                            <br />
+                            <a href="{{url('/register')}}" class="button is-block is-info is-medium">Registrar</a>
                         </form>
                     </div>
                 </div>
