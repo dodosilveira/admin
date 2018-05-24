@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="route-documentation fontawesome-i2svg-active fontawesome-i2svg-complete">
+<html class="route-documentation fontawesome-i2svg-active fontawesome-i2svg-complete" style="background: #ecf0f5;">
 
 <head>
     <meta charset="utf-8">
@@ -13,4 +13,4 @@
     <!--<link rel="stylesheet" type="text/css" href="../css/login.css">-->
 
 </head>
-    <body style="background: #ecf0f5;">
+    <body class="is-fullheight" style="background: #ecf0f5; height:auto;">

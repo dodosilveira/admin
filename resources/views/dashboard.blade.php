@@ -28,44 +28,33 @@
 
 		<div class="column is-11" style="width:98%; height:auto; background:#FFF; margin:0 auto; margin-top:-80px; z-index:99999; position:relative;">
 
-			<div class="columns">
-				<div class="column" style="text-align:left;">
-                    <div class="notification is-danger" style="line-height:25px; font-weight:100!important;">
-                        <i class="fa fa-street-view" style="float:left; font-size:50px;font-weight:100!important;"></i>
-                        <div style="float:left; font-size:20px; font-weight:bold; margin-top:0px; margin-left:15px;">
-                            <span style="font-size:26px;">768</span><br />
-                            <span style="font-size:16px; font-weight:100!important;">Pedidos realizados</span>
-                        </div>
-                        <div style="clear:both;"></div>
+			<div class="columns is-11">
+				<div class="column" style="text-align:center;">
+                    <div class="notification is-link" style="line-height:30px; font-weight:100!important;">
+                        <i class="fa fa-user" style="font-size:56px;font-weight:100!important;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">26</span><br />
+                        <span style="font-weight:100!important;">Pedidos realizados</span>
                     </div>
                 </div>
-				    <div class="notification is-link" style="line-height:25px; font-weight:100!important;">
-				    	<i class="fa fa-gear" style="float:left; font-size:56px;font-weight:100!important;"></i>
-				    	<div style="float:left; font-size:20px; font-weight:bold; margin-top:3px; margin-left:25px;">
-				    		<span style="font-size:35px;">320</span><br />
-				    		<span style="font-weight:100!important;">Impressas</span>
-				    	</div>
-				    	<div style="clear:both;"></div>
-				    </div>
-				</div>
-				<div class="column" style="text-align:left;">
-				    <div class="notification is-primary" style="line-height:25px; font-weight:100!important;">
-				    	<i class="fa fa-users" style="float:left; font-size:56px;font-weight:100!important;"></i>
-				    	<div style="float:left; font-size:20px; font-weight:bold; margin-top:3px; margin-left:25px;">
-				    		<span style="font-size:35px;">159</span><br />
-				    		<span style="font-weight:100!important;">Recebidas</span>
-				    	</div>
-				    	<div style="clear:both;"></div>
-				    </div>
-				</div>
-				<div class="column" style="text-align:left;">
-				    <div class="notification is-danger" style="line-height:25px; font-weight:100!important;">
-				    	<i class="fa fa-list-alt" style="float:left; font-size:56px;font-weight:100!important;"></i>
-				    	<div style="float:left; font-size:20px; font-weight:bold; margin-top:3px; margin-left:25px;">
-				    		<span style="font-size:35px;">26</span><br />
-				    		<span style="font-weight:100!important;">Não impressa</span>
-				    	</div>
-				    	<div style="clear:both;"></div>
+				<div class="column" style="text-align:center;">
+                    <div class="notification is-danger" style="line-height:30px; font-weight:100!important;">
+                        <i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">26</span><br />
+                        <span style="font-weight:100!important;">Pedidos pendentes</span>
+                    </div>
+                </div>
+				<div class="column" style="text-align:center;">
+                    <div class="notification is-primary" style="line-height:30px; font-weight:100!important;">
+                        <i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">26</span><br />
+                        <span style="font-weight:100!important;">Impressas</span>
+                    </div>
+                </div>
+				<div class="column" style="text-align:center;">
+				    <div class="notification is-danger" style="line-height:30px; font-weight:100!important;">
+				    	<i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
+			    		<span style="font-size:35px; font-weight:bold;">26</span><br />
+			    		<span style="font-weight:100!important;">Não impressa</span>
 				    </div>
 				</div>
 			</div>
