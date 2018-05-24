@@ -1,10 +1,5 @@
 @include('includes.header')       
 
-<style>
-	.navtop{color:#038672;}
-	.navtop:hover{color:#055044;}
-</style>
-
 <div class="columns" style="font-weight:100;">
   
     @include('includes.sidebar')
@@ -30,33 +25,33 @@
 
 			<div class="columns is-11">
 				<div class="column" style="text-align:center;">
-                    <div class="notification is-link" style="line-height:30px; font-weight:100!important;">
-                        <i class="fa fa-user" style="font-size:56px;font-weight:100!important;"></i><br />
-                        <span style="font-size:35px; font-weight:bold;">26</span><br />
-                        <span style="font-weight:100!important;">Pedidos realizados</span>
+                    <div class="notification is-link" style="line-height:20px; font-weight:100!important;">
+                        <i class="fa fa-cart-arrow-down" style="font-size:56px;font-weight:100!important; line-height: 70px;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">837</span><br />
+                        <div style="font-weight:100!important;">Pedidos realizados</div>
                     </div>
                 </div>
 				<div class="column" style="text-align:center;">
-                    <div class="notification is-danger" style="line-height:30px; font-weight:100!important;">
-                        <i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
-                        <span style="font-size:35px; font-weight:bold;">26</span><br />
-                        <span style="font-weight:100!important;">Pedidos pendentes</span>
+                    <div class="notification is-danger" style="line-height:20px; font-weight:100!important;">
+                        <i class="fa fa-history" style="font-size:56px;font-weight:100!important; line-height: 70px;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">126</span><br />
+                        <div style="font-weight:100!important;">Pedidos pendentes</div>
                     </div>
                 </div>
 				<div class="column" style="text-align:center;">
-                    <div class="notification is-primary" style="line-height:30px; font-weight:100!important;">
-                        <i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
-                        <span style="font-size:35px; font-weight:bold;">26</span><br />
-                        <span style="font-weight:100!important;">Impressas</span>
+                    <div class="notification is-primary" style="line-height:20px; font-weight:100!important;">
+                        <i class="fa fa-print" style="font-size:56px;font-weight:100!important; line-height: 70px;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">326</span><br />
+                        <div style="font-weight:100!important;">Pedidos impressos</div>
                     </div>
                 </div>
 				<div class="column" style="text-align:center;">
-				    <div class="notification is-danger" style="line-height:30px; font-weight:100!important;">
-				    	<i class="fa fa-list-alt" style="font-size:56px;font-weight:100!important;"></i><br />
-			    		<span style="font-size:35px; font-weight:bold;">26</span><br />
-			    		<span style="font-weight:100!important;">Não impressa</span>
-				    </div>
-				</div>
+                    <div class="notification is-danger" style="line-height:20px; font-weight:100!important;">
+                        <i class="fa fa-exclamation-circle" style="font-size:56px;font-weight:100!important; line-height: 70px;"></i><br />
+                        <span style="font-size:35px; font-weight:bold;">26</span><br />
+                        <div style="font-weight:100!important;">Não impressos</div>
+                    </div>
+                </div>
 			</div>
 
 			<hr />

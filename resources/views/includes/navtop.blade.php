@@ -1,3 +1,7 @@
+<style>
+  .navtop{color:#038672;}
+  .navtop:hover{color:#055044;}
+</style>
 <div class="tile is-ancestor" style="text-align:right;">
   <div class="tile is-vertical is-12">
       <div class="tile">
