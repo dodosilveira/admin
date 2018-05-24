@@ -1,81 +1,82 @@
 	<script type="text/javascript" src="./js/Chart.bundle.js"></script>
 	<script type="text/javascript" src="./js/utils.js"></script>
 	<script>
-		var color = Chart.helpers.color;
-		function createConfig(colorName) {
-			return {
-				type: 'line',
-				data: {
-					labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho'],
-					datasets: [{
-						label: 'Registros',
-						data: [
-							randomScalingFactor(),
-							randomScalingFactor(),
-							randomScalingFactor(),
-							randomScalingFactor(),
-							randomScalingFactor(),
-							randomScalingFactor(),
-							randomScalingFactor()
-						],
-						backgroundColor: color(window.chartColors[colorName]).alpha(0.5).rgbString(),
-						borderColor: window.chartColors[colorName],
-						borderWidth: 1,
-						pointStyle: 'rectRot',
-						pointRadius: 5,
-						pointBorderColor: 'rgb(0, 0, 0)'
-					}]
-				},
+		var barChartData = {
+			labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho'],
+			datasets: [{
+				label: 'Pedidos',
+				backgroundColor: window.chartColors.red,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}, {
+				label: 'Impressas',
+				backgroundColor: window.chartColors.blue,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}, {
+				label: 'Recebidas',
+				backgroundColor: window.chartColors.green,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}]
+
+		};
+		window.onload = function() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myBar = new Chart(ctx, {
+				type: 'bar',
+				data: barChartData,
 				options: {
-					responsive: true,
-					legend: {
-						labels: {
-							usePointStyle: false
-						}
-					},
-					scales: {
-						xAxes: [{
-							display: true,
-							scaleLabel: {
-								display: true,
-								labelString: 'Mês'
-							}
-						}],
-						yAxes: [{
-							display: true,
-							scaleLabel: {
-								display: true,
-								labelString: 'Valores'
-							}
-						}]
-					},
 					title: {
 						display: true,
-						text: 'Legenda'
+						text: 'Gráfico'
+					},
+					tooltips: {
+						mode: 'index',
+						intersect: false
+					},
+					responsive: true,
+					scales: {
+						xAxes: [{
+							stacked: true,
+						}],
+						yAxes: [{
+							stacked: true
+						}]
 					}
 				}
-			};
-		}
-
-		function createPointStyleConfig(colorName) {
-			var config = createConfig(colorName);
-			config.options.legend.labels.usePointStyle = true;
-			config.options.title.text = 'Point Style Legend';
-			return config;
-		}
-
-		window.onload = function() {
-			[{
-				id: 'chart-legend-normal',
-				config: createConfig('red')
-			}, {
-				id: 'chart-legend-pointstyle',
-				config: createPointStyleConfig('blue')
-			}].forEach(function(details) {
-				var ctx = document.getElementById(details.id).getContext('2d');
-				new Chart(ctx, details.config);
 			});
 		};
+
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			barChartData.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return randomScalingFactor();
+				});
+			});
+			window.myBar.update();
+		});
 	</script>
 	</body>
 </html>

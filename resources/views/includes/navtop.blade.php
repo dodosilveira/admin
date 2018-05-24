@@ -1,0 +1,23 @@
+<div class="tile is-ancestor" style="text-align:right;">
+  <div class="tile is-vertical is-12">
+      <div class="tile">
+          <div class="tile is-parent is-vertical" style="height:80px; float:right; line-height: 20px;">
+            <div style="height:20px; margin-top:15px; margin-right:30px; float:right;">
+              
+              <div style="float:right; width:90px; height:20px; text-align: center; margin-left:10px;">
+                <a class="navtop" href="{{url('/')}}"><i class="fa fa-sign-in" style="margin-right:5px; font-size:28px;"></i><br />Logout</a>
+              </div>
+
+              <div style="float:right; width:120px; height:20px; text-align: center; margin:0px 10px;">
+                <a class="navtop" href="{{url('/')}}"><i class="fa fa-bell" style="margin-right:5px; font-size:28px;"></i><br />Notificações <span style="padding:2px 6px; background:#ff3860; font-size:11px; color:#FFF; font-weight:bold; border-radius:5px;">7</span></a>
+              </div>
+
+              <div style="float:right; width:90px; height:20px; text-align: center; margin:0px 25px;">
+                <a class="navtop" href="{{url('/profile')}}"><i class="fa fa-user" style="margin-right:5px; font-size:28px;"></i><br />Meu perfil</a>
+              </div>
+
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
