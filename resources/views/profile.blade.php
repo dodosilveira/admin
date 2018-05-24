@@ -1,4 +1,4 @@
-@include('includes.header')   
+@include('includes.header')  
 
 <style>
 .subtitle{font-weight:100!important;}
