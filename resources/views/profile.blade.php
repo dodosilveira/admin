@@ -26,29 +26,27 @@
 			<div class="columns">
 				<div class="column" style="text-align:left;">
 
+					<p class="subtitle">Lorem Ipsum é simplesmente uma simulação de texto da indústria.</p>
+
 					<div class="field">
-					  <label class="label">Nome</label>
 					  <div class="control">
 					    <input class="input" type="text" placeholder="Nome">
 					  </div>
 					</div>
 
 					<div class="field">
-					  <label class="label">Usuário</label>
 					  <div class="control">
 					    <input class="input" type="text" placeholder="Usuário">
 					  </div>
 					</div>
 
 					<div class="field">
-					  <label class="label">Senha</label>
 					  <div class="control">
 					    <input class="input" type="password" placeholder="Senha">
 					  </div>
 					</div>
 
 					<div class="field">
-					  <label class="label">E-mail</label>
 					  <div class="control">
 					    <input class="input" type="email" placeholder="E-mail">
 					  </div>
@@ -57,9 +55,6 @@
 					<div class="field is-grouped">
 					  <div class="control">
 					    <button class="button is-link">Submit</button>
-					  </div>
-					  <div class="control">
-					    <button class="button is-text">Cancel</button>
 					  </div>
 					</div>
 

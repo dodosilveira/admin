@@ -411,3 +411,19 @@
 #54 /var/www/html/laravel/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #55 {main}
 "} 
+[2018-05-24 13:31:51] local.ERROR: There are no commands defined in the "marke" namespace.
+
+Did you mean this?
+    make {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): There are no commands defined in the \"marke\" namespace.
+
+Did you mean this?
+    make at /var/www/html/admin/vendor/symfony/console/Application.php:557)
+[stacktrace]
+#0 /var/www/html/admin/vendor/symfony/console/Application.php(597): Symfony\\Component\\Console\\Application->findNamespace('marke')
+#1 /var/www/html/admin/vendor/symfony/console/Application.php(224): Symfony\\Component\\Console\\Application->find('marke:controlle...')
+#2 /var/www/html/admin/vendor/symfony/console/Application.php(143): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /var/www/html/admin/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /var/www/html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /var/www/html/admin/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
