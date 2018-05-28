@@ -18,9 +18,14 @@
                                     <input class="input is-medium" type="password" placeholder="senha">
                                 </div>
                             </div>
-                            <a href="{{url('/dashboard')}}" class="button is-block is-info is-medium">Login</a>
-                            <br />
-                            <a href="{{url('/register')}}" class="button is-block is-info is-medium">Registrar</a>
+                            <div class="columns">    
+                                <div class="column">
+                                    <a href="{{url('/dashboard')}}" class="button is-block is-success is-medium">Login</a>
+                                </div>
+                                <div class="column">
+                                    <a href="{{url('/register')}}" class="button is-block is-info is-medium">Registrar</a>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
