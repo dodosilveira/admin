@@ -1,5 +1,11 @@
 	<script type="text/javascript" src="./js/Chart.bundle.js"></script>
 	<script type="text/javascript" src="./js/utils.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script>
+	    $("#ativNotify").click(function(){
+	        $("#notify").show();
+	    });
+	</script>
 	<script>
 		var barChartData = {
 			labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho'],

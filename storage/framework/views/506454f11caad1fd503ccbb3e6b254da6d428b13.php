@@ -18,7 +18,14 @@
                                     <input class="input is-medium" type="password" placeholder="senha">
                                 </div>
                             </div>
-                            <a href="<?php echo e(url('/dashboard')); ?>" class="button is-block is-info is-medium is-fullwidth">Login</a>
+                            <div class="columns">
+                                <div class="column">
+                                    <a href="<?php echo e(url('/dashboard')); ?>" class="button is-block is-success is-medium">Logar</a>
+                                </div>
+                                <div class="column">
+                                    <a href="<?php echo e(url('/register')); ?>" class="button is-block is-info is-medium">Registrar</a>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
